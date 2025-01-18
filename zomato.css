@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;  
+}
+header nav ul{
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+li{
+    display: inline;
+    margin: 0 1em;
+}
+#getapp{
+    margin-right: 550px;
+    font-size: 14px;
+    margin-left: 2px;
+    font-weight: lighter;
+}
+ul{
+    
+    text-align: center;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+i{
+    font-size: 14px;
+    
+}
+nav{
+    padding: 17px 0;
+}
+header{
+    background-image: url(zomato\ picture.png);
+    background-size: cover;
+    height: 420px;    
+}
+img{
+    width: 300px;
+    height: 60px;
+    margin-left: 530px;
+    margin-top: 15px;
+}
+#head{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#navsearch{
+    display: flex;
+    background-color: white;
+    width: 800px;
+    align-items: center;
+    justify-content: left;
+    margin-left: 278px;
+    height: 52px;
+    border-radius: 8px;
+    
+}
+#select{
+    margin-left: 10px;
+    border-top:  none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-right: 1px solid #BEBFC5;
+    border-left: none;
+    border-bottom: none;
+    margin-right: 4px;
+    color: #696969;
+    height: 25px;
+    font-size: 15px;
+    width: 185px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#i2{
+    margin-left: 13px;
+    font-size: 20px;
+}
+#selectarrow::after{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid #696969;
+    border-bottom: 2px solid #696969;
+    pointer-events: none;
+    transform: rotate(45deg);
+    right: 870px;
+    top: 287px;
+    transition: transform 0.2s ease-in-out;
+}
+select:focus{
+    outline: none;
+}
+#selectarrow:focus-within::after{
+    transform: rotate(225deg)
+}
+#i3{
+    margin-left: 13px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+#search{
+    border: none;
+    font-size: 15px;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#search:focus{
+    outline: none;
+}
+#optiongps{
+    color: red;
+}
+
