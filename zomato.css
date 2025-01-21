@@ -27,13 +27,13 @@ ul{
     list-style: none;
     
 }
-a{
+.a1{
     text-decoration: none;
     color: #fff;
 }
 i{
     font-size: 14px;
-    
+    color: white;
 }
 nav{
     padding: 17px 0;
@@ -87,6 +87,7 @@ img{
 #i2{
     margin-left: 13px;
     font-size: 20px;
+    color: #e03543;
 }
 #selectarrow::after{
     content: '';
@@ -101,6 +102,7 @@ img{
     right: 870px;
     top: 287px;
     transition: transform 0.2s ease-in-out;
+    
 }
 select:focus{
     outline: none;
@@ -112,6 +114,7 @@ select:focus{
     margin-left: 13px;
     font-size: 20px;
     margin-right: 20px;
+    color: #696969;
 }
 #search{
     border: none;
@@ -123,7 +126,7 @@ select:focus{
     outline: none;
 }
 #optiongps{
-    color: red;
+    color: #e03543;
 }
 .pic{
     height: 150px;
@@ -278,5 +281,66 @@ select:focus{
 .item{
     cursor: pointer;
 }
+#Collections{
+    margin-left: 184px;
+    margin-top: 60px;
+    color: #1c1c1c;
+    position: relative;
+} 
+#p4{
+    margin-left: 185px;
+    color: #363636;
+    position: absolute;
+    top: 795px;
+    font-size: 18px;
+}
+#p5{
+    right: 163px;
+    color: #363636;
+    position: absolute;
+    top: 800px;
     
+}
+#i4{
+    transform: rotate(270deg);
+    font-size: 16px;
+    color: #e03543;
+    margin-left: 10px;
+}
+#a2{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #e03543;
+    margin-left: 2px;
+}
+#photo4div{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5px;
+}
+#photo1{
+    width: 320px;
+    margin-left: 185px;
+    border-radius: 15px;
+}
+#photo2{
+    width: 320px;
+}
+#photo3{
+    width: 320px;
+}
+#photo4{
+    width: 300px;
+    margin-right: 400px;
+    border-radius: 15px;
+}
+.ph{
+    height: 290px;
+    width: 240px;
+    object-fit: cover;
+    margin: 2px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
 
