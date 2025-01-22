@@ -145,6 +145,9 @@ select:focus{
     align-items: flex-start;
     gap: 5px;
 }
+.hre{
+    text-decoration: none;
+}
 #pic1{
     margin-left: 180px;
     
@@ -323,6 +326,7 @@ select:focus{
     width: 320px;
     margin-left: 185px;
     border-radius: 15px;
+
 }
 #photo2{
     width: 320px;
@@ -343,4 +347,85 @@ select:focus{
     margin-top: 40px;
     border-radius: 5px;
 }
+.trend{
+    position: absolute;
+    top: 1075px;
+    padding: 17px;
+    text-decoration: none;
+    color: white;
+    background: rgba(0, 0, 0, .5);
+    width: 206px;
+    height: 26px;
+    margin-left: 2px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 18px;
+}
+#d1{
+    position: absolute;
+    top: 1098px;
+    padding: 17px;
+    margin-right: 98px;
+    left: 188px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+#di1{
+    transform: rotate(270deg);
+    color: white;
+    margin-left: 6px;
+    margin-top: 5px;
+}
+#d2{
+    position: absolute;
+    top: 1098px;
+    padding: 17px;
+    margin-right: 98px;
+    left: 436px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+#di2{
+    transform: rotate(270deg);
+    color: white;
+    margin-left: 6px;
+    margin-top: 5px;
+}
+#d3{
+    position: absolute;
+    top: 1098px;
+    padding: 17px;
+    margin-right: 98px;
+    left: 686px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+#di3{
+    transform: rotate(270deg);
+    color: white;
+    margin-left: 6px;
+    margin-top: 5px;
+}
+#d4{
+    position: absolute;
+    top: 1098px;
+    padding: 17px;
+    margin-right: 90px;
+    left: 935px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+#di4{
+    transform: rotate(270deg);
+    color: white;
+    margin-left: 6px;
+    margin-top: 5px;
+}
+
+
+
 
