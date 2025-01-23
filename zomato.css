@@ -8,8 +8,6 @@ header nav ul{
     padding: 0;
     font-size: 18px;
     padding-left: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    
 }
 li{
     display: inline;
@@ -65,7 +63,6 @@ img{
     margin-left: 278px;
     height: 52px;
     border-radius: 8px;
-    
 }
 #select{
     margin-left: 10px;
@@ -81,8 +78,6 @@ img{
     height: 25px;
     font-size: 15px;
     width: 185px;
-    font-family: Arial, Helvetica, sans-serif;
-    
 }
 #i2{
     margin-left: 13px;
@@ -425,6 +420,137 @@ select:focus{
     margin-left: 6px;
     margin-top: 5px;
 }
+#popular{
+    margin-left: 184px;
+    margin-top: 100px;
+}
+#popularp{
+    font-size: 36px;
+    color: #363636;
+}
+#park1{
+    border: 0.5px solid #DBD7D2;
+    width: 320px;
+    height: 79px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 1.5px 1.5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+#park1:hover{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.parka{
+    text-decoration: none;
+    display: flex;
+    width: 352px;
+}
+#parkp1{
+    font-size: 20px;
+    color: #1c1c1c;
+    margin: 0%;
+    position: absolute;
+    top: 15px;
+    left: 13px;
+    font-weight: lighter;
+}
+#parknum1{
+    position: absolute;
+    top: 30px;
+    left: 13px;
+    color: #363636;
+}
+#parkdiv1{
+    height: 5px;
+    width: 5px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    transform: rotate(320deg);
+    margin-left: 290px;
+    position: absolute;
+    bottom: 30px;
+}
+#parkp2{
+    font-size: 20px;
+    color: #1c1c1c;
+    margin: 0%;
+    position: absolute;
+    top: 15px;
+    left: 13px;
+    font-weight: lighter;
+}
+#parknum2{
+    position: absolute;
+    top: 30px;
+    left: 13px;
+    color: #363636;
+}
+#parkdiv2{
+    height: 5px;
+    width: 5px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    transform: rotate(320deg);
+    margin-left: 290px;
+    position: absolute;
+    bottom: 30px;
+}
+#park2{
+    border: 0.5px solid #DBD7D2;
+    width: 320px;
+    height: 79px;
+    position: absolute;
+    border-radius: 8px;
+    box-shadow: 0 1.5px 1.5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    left: 519.5px;
+    top: 1337px;
+}
+#park2:hover{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+#parkp3{
+    font-size: 20px;
+    color: #1c1c1c;
+    margin: 0%;
+    position: absolute;
+    top: 15px;
+    left: 13px;
+    font-weight: lighter;
+}
+#parknum3{
+    position: absolute;
+    top: 30px;
+    left: 13px;
+    color: #363636;
+}
+#parkdiv3{
+    height: 5px;
+    width: 5px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    transform: rotate(320deg);
+    margin-left: 290px;
+    position: absolute;
+    bottom: 30px;
+}
+#park3{
+    border: 0.5px solid #DBD7D2;
+    width: 320px;
+    height: 79px;
+    position: absolute;
+    border-radius: 8px;
+    box-shadow: 0 1.5px 1.5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    left: 855px;
+    top: 1337px;
+}
+#park3:hover{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
 
 
 
