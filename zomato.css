@@ -548,6 +548,236 @@ select:focus{
 #park3:hover{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
+#parkp4{
+    font-size: 20px;
+    color: #1c1c1c;
+    margin: 0%;
+    position: absolute;
+    top: 15px;
+    left: 13px;
+    font-weight: lighter;
+}
+#parknum4{
+    position: absolute;
+    top: 30px;
+    left: 13px;
+    color: #363636;
+}
+#parkdiv4{
+    height: 5px;
+    width: 5px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    transform: rotate(320deg);
+    margin-left: 290px;
+    position: absolute;
+    bottom: 30px;
+}
+#park4{
+    border: 0.5px solid #DBD7D2;
+    width: 320px;
+    height: 79px;
+    position: absolute;
+    border-radius: 8px;
+    box-shadow: 0 1.5px 1.5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    top: 1440px;
+}
+#park4:hover{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+#parkp5{
+    font-size: 20px;
+    color: #1c1c1c;
+    margin: 0%;
+    position: absolute;
+    top: 15px;
+    left: 13px;
+    font-weight: lighter;
+}
+#parknum5{
+    position: absolute;
+    top: 30px;
+    left: 13px;
+    color: #363636;
+}
+#parkdiv5{
+    height: 5px;
+    width: 5px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    transform: rotate(320deg);
+    margin-left: 290px;
+    position: absolute;
+    bottom: 30px;
+}
+#park5{
+    border: 0.5px solid #DBD7D2;
+    width: 320px;
+    height: 79px;
+    position: absolute;
+    border-radius: 8px;
+    box-shadow: 0 1.5px 1.5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    left: 519.5px;
+    top: 1440px;
+}
+#park5:hover{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+#parkp6{
+    font-size: 20px;
+    color: #1c1c1c;
+    margin: 0%;
+    position: absolute;
+    top: 15px;
+    left: 13px;
+    font-weight: lighter;
+}
+#parknum6{
+    position: absolute;
+    top: 30px;
+    left: 13px;
+    color: #363636;
+}
+#parkdiv6{
+    height: 5px;
+    width: 5px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    transform: rotate(320deg);
+    margin-left: 290px;
+    position: absolute;
+    bottom: 30px;
+}
+#park6{
+    border: 0.5px solid #DBD7D2;
+    width: 320px;
+    height: 79px;
+    position: absolute;
+    border-radius: 8px;
+    box-shadow: 0 1.5px 1.5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    left: 855px;
+    top: 1440px;
+}
+#park6:hover{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+#parkp7{
+    font-size: 20px;
+    color: #1c1c1c;
+    margin: 0%;
+    position: absolute;
+    top: 15px;
+    left: 13px;
+    font-weight: lighter;
+}
+#parknum7{
+    position: absolute;
+    top: 30px;
+    left: 13px;
+    color: #363636;
+}
+#parkdiv7{
+    height: 5px;
+    width: 5px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    transform: rotate(320deg);
+    margin-left: 290px;
+    position: absolute;
+    bottom: 30px;
+}
+#park7{
+    border: 0.5px solid #DBD7D2;
+    width: 320px;
+    height: 79px;
+    position: absolute;
+    border-radius: 8px;
+    box-shadow: 0 1.5px 1.5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    top: 1540px;
+}
+#park7:hover{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+#parkp8{
+    font-size: 20px;
+    color: #1c1c1c;
+    margin: 0%;
+    position: absolute;
+    top: 15px;
+    left: 13px;
+    font-weight: lighter;
+}
+#parknum8{
+    position: absolute;
+    top: 30px;
+    left: 13px;
+    color: #363636;
+}
+#parkdiv8{
+    height: 5px;
+    width: 5px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    transform: rotate(320deg);
+    margin-left: 290px;
+    position: absolute;
+    bottom: 30px;
+}
+#park8{
+    border: 0.5px solid #DBD7D2;
+    width: 320px;
+    height: 79px;
+    position: absolute;
+    border-radius: 8px;
+    box-shadow: 0 1.5px 1.5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    left: 519.5px;
+    top: 1540px;
+}
+#park8:hover{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+#parkp9{
+    font-size: 20px;
+    color: #1c1c1c;
+    margin: 0%;
+    position: absolute;
+    top: 10px;
+    left: 13px;
+    font-weight: lighter;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+#parkdiv9{
+    height: 5px;
+    width: 5px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    transform: rotate(45deg);
+    margin-left: 205px;
+    position: absolute;
+    bottom: 35px;
+}
+#park9{
+    border: 0.5px solid #DBD7D2;
+    width: 320px;
+    height: 79px;
+    position: absolute;
+    border-radius: 8px;
+    box-shadow: 0 1.5px 1.5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    left: 855px;
+    top: 1540px;
+}
+
+
+
+
+
 
 
 
