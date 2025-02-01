@@ -19,11 +19,9 @@ li{
     margin-left: 2px;
     font-weight: lighter;
 }
-ul{
-    
+ul{    
     text-align: center;
-    list-style: none;
-    
+    list-style: none;  
 }
 .a1{
     text-decoration: none;
@@ -39,7 +37,7 @@ nav{
 header{
     background-image: url(zomato\ picture.png);
     background-size: cover;
-    height: 420px;    
+    height: 420px; 
 }
 img{
     width: 300px;
@@ -53,6 +51,12 @@ img{
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-size: 36px;
+}
+#bold{
+    font-weight: lighter;
 }
 #navsearch{
     display: flex;
@@ -82,7 +86,7 @@ img{
 #i2{
     margin-left: 13px;
     font-size: 20px;
-    color: #e03543;
+    color: #ED7A9B;
 }
 #selectarrow::after{
     content: '';
@@ -169,7 +173,9 @@ select:focus{
     position: relative;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    color: #555555;
+    color: #363636;
+    font-weight: lighter;
+    font-size: 20px;
 }
 #p1{
     width: 298px;
@@ -181,15 +187,16 @@ select:focus{
     top: 657px;
     position: absolute;
     color: #696969;
+    letter-spacing: 0.5px;
 }
 .hr1{
     position: absolute;
-    width: 312px;
+    width: 307px;
     height: 1px;
     background-color:#DBD7D2 ;
-    left: 188px;
+    left: 191.5px;
     border-radius: 15px;
-    top: 673.5px;
+    top: 676px;
     border: none;
 }
 #text2{
@@ -205,8 +212,10 @@ select:focus{
     position: relative;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    color: #555555;
+    color: #363636;
     right: 180px;
+    font-weight: lighter;
+    font-size: 20px;
 }
 #p2{
     width: 298px;
@@ -219,15 +228,16 @@ select:focus{
     position: absolute;
     color: #696969;
     left: 342px;
+    letter-spacing: 0.5px;
 }
 .hr2{
     position: absolute;
-    width: 312px;
+    width: 307px;
     height: 1px;
     background-color:#DBD7D2 ;
-    left: 522px;
+    left: 526px;
     border-radius: 15px;
-    top: 673.5px;
+    top: 676px;
     border: none;
 }
 #text3{
@@ -243,13 +253,15 @@ select:focus{
     position: relative;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    color: #555555;
+    color: #363636;
     right: 180px;
+    font-weight: lighter;
+    font-size: 20px;
 }
 #p3{
     width: 298px;
     height: 35px;
-    margin-left: 180px;
+    margin-left: 178px;
     margin-top: 0;
     text-align: left;
     padding-left: 20px;
@@ -257,15 +269,16 @@ select:focus{
     position: absolute;
     color: #696969;
     right: 168px;
+    letter-spacing: 0.5px;
 }
 .hr3{
     position: absolute;
-    width: 312px;
+    width: 307px;
     height: 1px;
     background-color:#DBD7D2 ;
-    left: 860px;
+    left: 861px;
     border-radius: 15px;
-    top: 673.5px;
+    top: 676px;
     border: none;
 }
 #div2{
@@ -284,6 +297,9 @@ select:focus{
     margin-top: 60px;
     color: #1c1c1c;
     position: relative;
+    font-weight: lighter;
+    font-size: 36px;
+    letter-spacing: 1px;
 } 
 #p4{
     margin-left: 185px;
@@ -291,6 +307,7 @@ select:focus{
     position: absolute;
     top: 795px;
     font-size: 18px;
+    letter-spacing: 0.5px;
 }
 #p5{
     right: 163px;
@@ -773,8 +790,402 @@ select:focus{
     left: 855px;
     top: 1540px;
 }
+#rossy{
+    background-color: #fffbf7;
+    height: 480px;
+    width: 1343px;
+    position: absolute;
+    top: 1700px;
+    display: flex;
+}
+#dpic{
+    object-fit: cover;
+    height: 450px;
+    width: 410px;
+    position: absolute;
+    right: 670px;
+    top: 15px;
+    display: flex;
+}
+#geth{
+    position: absolute;
+    right: 250px;
+    top: 30px;
+    font-size: 44px;
+    font-weight: lighter;
+}
+#getp1{
+    position: absolute;
+    right: 219px;
+    top: 125px;
+    font-weight: lighter;
+    color: #363636;
+}
+#getp2{
+    position: absolute;
+    right: 580px;
+    top: 160px;
+    font-weight: lighter;
+    color: #363636;
+}
+label{
+    line-height: 20px;
+    font-size: 16px;
+    
+}
+input[type="radio"]{
+    width: 20px;
+    height: 20px;
+    accent-color: #ef4f5f;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+}
+.rdiv{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    justify-content: center;
+}
+#email{
+    margin-left: 356.5px;
+}
+#pemail{
+    position: absolute;
+    left: 742px;
+    top: 220px;
+    font-weight: lighter;
+    color: #1c1c1c;
+}
+#pphone{
+    position: absolute;
+    left: 876px;
+    top: 220px;
+    font-weight: lighter;
+    color: #1c1c1c;
+}
+#em1{
+    height: 70px;
+    width: 292px;
+    position: absolute;
+    top: 280px;
+    left: 717px;
+}
+#search1{
+    height: 48px;
+    width: 292px;
+    font-size: 18px;
+    padding-left: 12px;
+    border-radius: 6px;
+    border: 1px solid #BEBFC5;
+}
+#search1::placeholder{
+    color: rgb(190, 191, 197);
+}
+#input{
+    position: absolute;
+    top: 280px;
+    left: 1033px;
+}
+#share{
+    height: 50px;
+    width: 148px;
+    background-color: #ef4554;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    transition: all ease-in-out;
+}
 
+#share:hover{
+    background-color: #E52B50;
+}
+#down{
+    position: absolute;
+    top: 350px;
+    left: 717px;
+    font-size: 15.4px;
+    color: #9c9c9c;
+}
+#play{
+    position: absolute;
+    top: 190px;
+    left: 94px;
+    font-size: 15.4px;
+    color: #9c9c9c;
+    object-fit: cover;
+    height: 40px;
+    width: 137px;
+}
+#app{
+    position: absolute;
+    top: 190px;
+    left: 174px;
+    font-size: 15.4px;
+    color: #9c9c9c;
+    object-fit: cover;
+    height: 40px;
+    width: 137px;
+}
+#explore{
+    position: absolute;
+    top: 2200px;
+    left: 200.5px;
+}
+#exp{
+    color: #363636;
+    font-size: 30px;
+}
+.pall{
+    font-size: 20px;
+    color: #1c1c1c;
+}
+#cui1{
+    height: 66px;
+    width: 998px;
+    border: 0.5px solid #DBD7D2;
+    border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+}
+#pa1{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+#cui2{
+    height: 66px;
+    width: 998px;
+    border: 0.5px solid #DBD7D2;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#pa2{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+#cui3{
+    height: 66px;
+    width: 998px;
+    border: 0.5px solid #DBD7D2;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#pa3{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
 
+#cui4{
+    height: 66px;
+    width: 998px;
+    border: 0.5px solid #DBD7D2;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#pa4{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+.rotate{
+    height: 7px;
+    width: 7px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    transform: rotate(45deg);
+    margin-left: 960px;
+    position: absolute;
+    bottom: 30px;
+    transition: all 0.3s ease-in-out;
+}
+#footerimg{
+    position: absolute;
+    top: 2720px;
+    height: 28px;
+    width: 132px;
+    left: 100px;
+    margin-left: 105px;
+}
+#india{
+    border: 1px solid #848482;
+    height: 38px;
+    width: 123px;
+    position: absolute;
+    top: 2730px;
+    display: flex;
+    left: 918px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+#english{
+    border: 1px solid #848482;
+    height: 38px;
+    width: 123px;
+    position: absolute;
+    top: 2730px;
+    display: flex;
+    left: 1070px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+#flag{
+    height: 14px;
+    width: 22px;
+    position: absolute;
+    bottom: 11px;
+    right: 95px;    
+}
+#div{
+    position: absolute;
+    top: 2741px;
+    display: flex;
+    left: 960px;
+    font-size: 18px;
+    color: #1c1c1c;
+    cursor: pointer;
+}
+.rotate1{
+    height: 5px;
+    width: 5px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    transform: rotate(45deg);
+    margin-left: 105px;
+    position: absolute;
+    bottom: 15px;
+}
+#eiv{
+    position: absolute;
+    top: 2741px;
+    display: flex;
+    left: 1105px;
+    font-size: 18px;
+    color: #1c1c1c;
+    cursor: pointer;
+}
+#globe{
+    font-size: 18px;
+    position: absolute;
+    color: #100C08;
+    top: 12px;
+    left: 5px;
+}
+#list{
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    padding-left: 15px;
+    font-size: 13px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+#navs{
+    position: absolute;
+    top: 2781px;
+    display: flex;
+    left: 77px;
+    text-align: justify;
+    justify-content: space-evenly;
+    width: 1100px;
+}
+.a2{
+    padding-left: 40px;
+}
+#about{
+    position: absolute;
+    top: 2830px;
+    left: 207px;
+}
+.zomato{
+    text-decoration: none;
+    color: #696969;
+    font-size: 14.5px;
+}
+#Zomaverse{
+    position: absolute;
+    top: 2830px;
+    left: 407px;
+}
+#For{
+    position: absolute;
+    top: 2830px;
+    left: 580px;
+}
+#learn{
+    position: absolute;
+    top: 2830px;
+    left: 810px;
+}
+#links{
+    position: absolute;
+    top: 2845px;
+    left: 990px;
+    border-radius: 50%;   
+}
+#g1{
+    font-size: 20px;
+    margin-right: 4px;
+}
+.zomat{
+    text-decoration: none;
+}
+.ap{
+    object-fit: cover;
+    height: 40px;
+    width: 137px;
+}
+#appsplay{
+    position: absolute;
+    top: 2875px;
+    left: 460px;
+}
+#ds{
+    position: relative;
+    bottom: 5px;
+}
+#hf{
+    width: 1008px;
+    position: absolute;
+    left: 207px;
+    top: 3120px;
+    border: none;
+    background-color: #DEDCD8;
+    height: 1px;
+}
+#by1{
+    position: absolute;
+    top: 3140px;
+    left: 207px;
+    font-size: 13px;
+    color: #696969;
+}
+#by2{
+    position: absolute;
+    top: 3160px;
+    left: 207px;
+    font-size: 13px;
+    color: #696969;
+}
+#color{
+    background-color: rgba(221, 221, 221, 0.2);
+    height: 500px;
+    width: 1343px;
+    position: absolute;
+    top: 2690px;
+}
 
 
 
